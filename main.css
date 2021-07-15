@@ -1,0 +1,54 @@
+body{
+    background-color: slategray;
+}
+
+header{
+    background-color:burlywood;
+}
+
+.Intro{
+    width: fit-content;
+}
+
+.topList li{
+    margin: .1rem;
+    border-radius: 2rem;
+}
+
+.topList li:hover{
+    text-transform: capitalize;
+}
+
+.aBird{
+    width: 10rem;
+    height: auto;
+}
+
+.projectCard{
+    opacity: .5;
+}
+
+.projectCard:hover{
+    opacity: 1;
+}
+
+.imageBG{
+    background-image: url(Images/mountains.jpg);
+    color:snow;
+    font-weight:bold;
+}
+
+.aboutMe{
+    border-radius: .5rem;
+    text-align: center;
+    width: fit-content;
+}
+
+.aboutMe:hover{
+    color:goldenrod;
+    margin-left: 1rem;  
+}
+
+.enterText{
+    height: 20rem;
+}
