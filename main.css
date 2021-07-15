@@ -8,7 +8,9 @@ header{
 
 .Intro{
     width: fit-content;
+    opacity: .85;
 }
+
 
 .topList li{
     margin: .1rem;
@@ -60,4 +62,12 @@ header{
 
 .myItems:hover{
     background-color: darkslategrey;
+}
+
+.myNavbar{
+    margin-left: 20rem;
+}
+
+.headerClass{
+    background-color: slategray;
 }
