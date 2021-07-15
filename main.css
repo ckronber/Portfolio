@@ -52,3 +52,12 @@ header{
 .enterText{
     height: 20rem;
 }
+
+.myLink{
+    color: white;
+    font-style: bold;
+}
+
+.myItems:hover{
+    background-color: darkslategrey;
+}
