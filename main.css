@@ -1,5 +1,5 @@
 body{
-    background-color: slategray;
+    background-color: rgb(250, 250, 250);
 }
 
 header{
@@ -7,10 +7,14 @@ header{
 }
 
 .Intro{
-    width: fit-content;
-    opacity: .85;
+    padding-top:.3rem;
+    padding-bottom: .5rem;
+    height: fit-content;
+    font-size: 1.5rem;
+    opacity: .9;
+    border-radius: 1rem;
+    font-weight: bold;
 }
-
 
 .topList li{
     margin: .1rem;
@@ -34,30 +38,45 @@ header{
     opacity: 1;
 }
 
+#selfPic{
+    opacity:.9;
+    border-radius: 20rem;
+    /*border: dotted white;*/
+    box-shadow: .5rem .5rem 1rem slategray;
+}
+
 .imageBG{
     background-image: url(Images/mountains.jpg);
+    background-size: 100%;
+    height: auto;
     color:snow;
     font-weight:bold;
+    border-radius: 5rem 5rem 5rem 5rem;
+    box-shadow: .5rem .5rem 1rem slategray;
 }
 
 .aboutMe{
     border-radius: .5rem;
     text-align: center;
     width: fit-content;
+    color:darkslategray;
+    align-items: center;
 }
 
-.aboutMe:hover{
-    color:goldenrod;
-    margin-left: 1rem;  
+#projects{
+    align-content: center;
+    width: fit-content;
+    padding: 2rem;
 }
 
 .enterText{
-    height: 20rem;
+    height: 10rem;
+    min-height: 5rem;
 }
 
 .myLink{
     color: white;
-    font-style: bold;
+    font-style: bolder;
 }
 
 .myItems:hover{
@@ -70,4 +89,8 @@ header{
 
 .headerClass{
     background-color: slategray;
+}
+
+.Main1{
+    color:darkslategray;
 }
