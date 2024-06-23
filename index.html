@@ -9,35 +9,59 @@
 </head>
 <body>
   <header> 
-    <nav class="navbar  fixed-top" data-bs-theme="dark">
-      <div>
-        <!-- Navbar content -->
+    <!--
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <div role="navigation">
+         Navbar content 
         <a href="#about">About Me</a>
         <a href="#skills">Technical Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </div>
+    </nav>-->
+
+  
+   <nav class="navbar navbar-expand-md fixed-top">
+    <h2 class = "navbar-brand" id ="NameContent">&nbsp; Chris Kronberg</h2>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"></a>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav">
+            <li class="nav-link">
+              <a class="nav-item" href="#about">About Me</a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-item" href="#skills">Technical Skills</a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-item" href="#projects">Projects</a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-item" href="#contact">Contact</a>
+            </li>
+          </ul>
+      </div>
     </nav>
   </header>
 
   <section id = "Name" class = "Name">
-    <div class="container">
-        <h2 class="name">Chris Kronberg</h2>
-    </div>
     <div id = "selfPic">
       <img src="Images/Subject.png" height="300rem" width="auto" alt="Self Portrait">
       <h6 id="titleName"> &nbsp;&nbsp; Full Stack Software Developer</h6>
     </div>
   </section>
-  
-  <section id = "about" class="about">
+
+  <div id = "about" ></div>
+  <section class="about">
       <div class="container">
           <h2>About Me</h2>
           <p id="aboutme">I graduated from Purdue University with a degree in Electrical Engineering Technology. While working at Cummins, I pursued studies in Computer Science at Indiana University Purdue University Indianapolis to attain a minor in Computer Science. However, I have not had enough opportunities to apply my coding skills. To address this gap, I proactively enrolled at Eleven Fifty Academy in May 2021 to sharpen my expertise in C# and .NET. I developed a Python web chat app to exhibit my software development skills, which helped me secure a position at Eagle Creek, where I gained valuable experience with Guidewire InsuranceNow Software.</p>
       </div>
   </section>
 
-  <section id="skills" class="skills">
+  <div id="skills"></div>
+  <section class="skills">
       <div class="container">
           <h2>Technical Skills</h2>
           <div>
@@ -86,7 +110,8 @@
       </div>
   </section>
 
-  <section id="projects" class="projects">
+  <div id="projects"></div>
+  <section class="projects">
       <div class="container">
           <h2>Projects</h2>
           <div class="project">
