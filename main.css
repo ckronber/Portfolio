@@ -33,6 +33,13 @@ nav {
     color:#3498db;
 }
 
+#Name{
+    background-image: url(images/desk.jpg);
+    background-size: 100rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #selfpic{
     position:absolute;
     width:100px;
@@ -70,9 +77,15 @@ section {
     color: #0b3958;
 }
 #titleName{
-    margin-top: 1rem;
-    font-size: 20px;
+    margin-top: .8rem;
+    font-size: 1.2rem;
     font-weight: bolder;
+    color:#0b3958;
+    background-color: rgba(245, 245, 220, 0.932);
+    border-radius: 2rem;
+    width: 19rem;
+    height: auto;
+    text-align:center;
 }
 
 .name{
