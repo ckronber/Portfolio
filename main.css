@@ -34,7 +34,8 @@ nav {
 }
 
 #Name{
-    background-size: 100rem;
+    background-image: url(Images/desk.jpg);
+    background-size: 1920px;
     background-position: center;
     background-repeat: no-repeat;
 }
